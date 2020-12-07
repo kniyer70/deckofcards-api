@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Deck Of Cards - End to End Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Create New Deck and Draw Cards from Deck(failed)">
+    <classes>
+      <class name="com.compugain.deckofcards.apitests.TCCreateNewDeckAndDrawAPI">
+        <methods>
+          <include name="DrawCardWithJokerSuccess"/>
+          <include name="CreateNewDeckOfCardsWithJokerSuccess"/>
+          <include name="DrawCardWithoutJokerSuccess"/>
+          <include name="CreateNewDeckOfCardsWithoutJokerSuccess"/>
+        </methods>
+      </class> <!-- com.compugain.deckofcards.apitests.TCCreateNewDeckAndDrawAPI -->
+    </classes>
+  </test> <!-- Create New Deck and Draw Cards from Deck(failed) -->
+</suite> <!-- Failed suite [Deck Of Cards - End to End Testing] -->
