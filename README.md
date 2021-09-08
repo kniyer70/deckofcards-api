@@ -1,14 +1,19 @@
-deckofcards-api
+**deckofcards-api**
+
 Demo Test framework project for Deckofcardsapi.com website using Java, Junit5 and Rest Assured
 
-Pre-requisite(s):
+**Pre-requisite(s):**
+
 Will need to install Maven for running the tests from Command Line.
+
+**Steps:**
 
 1.) After cloning the project from github, launch the command interface (CMD) and change the directory to runenv folder. e.g. CD C:\Automation\deckofcards-api.
 
 2.) Type the following command C:> mvn clean test
 
 3.) You should see the following output:
+
 C:\Automation\deckofcards-api>mvn clean test
 [INFO] Scanning for projects...
 [INFO]
